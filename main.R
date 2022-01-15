@@ -5,7 +5,7 @@ library(dagitty)
 library(bayesianNetworks)
 library(ranger)
 
-setwd('C:/Users/gjoling/BayesianNetworks')
+setwd('path to data')
 
 data_dis <- read.csv('discretized_dataset.csv')
 data_mix <- read.csv('no_missingvalues_dataset.csv')
